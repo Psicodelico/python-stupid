@@ -21,3 +21,7 @@ weight = multiply(90, 2)
 iq = divide(100, 2)
 
 print("%d %d %d %d" % (age, height, weight, iq))
+
+what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
+
+print(what)
